@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+@layer components 
+{
+    .nav-link
+    {
+        @apply 
+        block 
+        px-4 py-3 
+        text-center 
+        text-white 
+        font-bold 
+        uppercase 
+        transition-colors 
+        duration-200 
+        hover:bg-[#676767];
+    }
+
+    .nav-active
+    {
+        @apply 
+        bg-[#676767];
+    }
+
+    .btn-red
+    {
+        @apply 
+        inline-flex 
+        items-center 
+        justify-center 
+        gap-2
+        w-36 h-8
+        bg-[#bd0906]
+        text-sm
+        text-white
+        font-medium
+        uppercase
+        tracking-wide
+        shadow-lg
+        transition-all
+        duration-200
+        hover:brightness-110
+        cursor-pointer;
+    }
+
+    .btn-dark
+    {
+        @apply 
+        inline-flex 
+        items-center 
+        justify-center 
+        gap-2
+        w-28 h-6
+        bg-[#911b19]
+        text-[13px]
+        text-white
+        uppercase
+        shadow-lg
+        transition-all
+        duration-200
+        hover:brightness-110
+        cursor-pointer;
+    }
+
+    .btn-large
+    {
+        @apply 
+        inline-flex 
+        items-center 
+        justify-center 
+        gap-2
+        w-72
+        h-11
+        bg-[#970A0A]
+        text-white
+        text-xl
+        font-medium
+        shadow-lg
+        transition-all
+        duration-200
+        hover:brightness-110
+        cursor-pointer;
+    }
+
+    .heading-primary
+    {
+        @apply 
+        font-serif 
+        text-2xl 
+        font-semibold 
+        text-[#2b2b2b];
+    }
+
+    .heading-red
+    {
+        @apply 
+        font-serif 
+        font-bold 
+        text-[#bd0906];
+    }
+
+    .heading-gray{
+        @apply 
+        font-serif 
+        text-[#333];
+    }
+
+    .paragraph
+    {
+        @apply 
+        text-[15px] 
+        leading-5 
+        font-semibold 
+        text-[#555];
+    }
+
+    .input-field
+    {
+        @apply 
+        w-44 h-6
+        px-2
+        border
+        border-gray-400
+        outline-none
+        placeholder:text-[#333]
+        placeholder:text-base
+        placeholder:font-bold;
+    }
+
+    .textarea-field
+    {
+        @apply w-[85%]
+        h-[70px]
+        px-3
+        py-1
+        border
+        border-gray-400
+        outline-none
+        placeholder:text-[#333]
+        placeholder:text-base
+        placeholder:font-bold;
+    }
+
+    .form-label
+    {
+        @apply 
+        text-[15px] 
+        font-bold;
+    }
+
+    .line-btn
+    {
+        @apply 
+        h-[2px]
+        mt-2 
+        bg-[#b0a6a6];
+    }
+
+    .line-dark
+    {
+        @apply 
+        h-[2px] 
+        bg-[#7e7979];
+    }
+
+    .practice-card
+    {
+        @apply 
+        flex 
+        items-center 
+        justify-between
+        h-16
+        my-4
+        bg-[#726e6e]
+        shadow-lg;
+    }
+
+    .sidebar-btn
+    {
+        @apply 
+        flex 
+        flex-col 
+        items-center 
+        justify-center;
+    }
+
+    .form-input
+    {
+        @apply
+        w-44
+        h-6
+        px-2
+        border
+        border-gray-400
+        bg-white
+        outline-none
+        text-sm
+        placeholder:text-base
+        placeholder:font-bold
+        placeholder:text-[#333];
+    }
+
+    .form-textarea
+    {
+        @apply
+        w-[85%]
+        h-[70px]
+        px-3
+        py-1
+        border
+        border-gray-400
+        bg-white
+        outline-none
+        text-sm
+        placeholder:text-base
+        placeholder:font-bold
+        placeholder:text-[#333];
+    }
+
+    .form-label
+    {
+        @apply
+        text-[15px]
+        font-bold
+        text-[#333];
+    }
+
+    .form-heading
+    {
+        @apply
+        text-2xl
+        text-[#333];
+    }
+
+    .form-description
+    {
+        @apply
+        px-8
+        text-lg
+        text-[#333];
+    }
+
+    .section-heading
+    {
+        @apply
+        font-serif
+        text-2xl
+        font-semibold
+        text-[#323131];
+    }
+
+    .section-paragraph
+    {
+        @apply
+        text-[18px]
+        leading-5
+        text-[#555];
+    }
+
+    .section-line
+    {
+        @apply
+        h-px
+        bg-[#b0a6a6];
+    }
+}
