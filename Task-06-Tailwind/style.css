@@ -29,7 +29,8 @@
         items-center 
         justify-center 
         gap-2
-        w-36 h-8
+        mr-5
+        w-30 h-7
         bg-[#bd0906]
         text-sm
         text-white
@@ -110,7 +111,16 @@
         @apply 
         text-[15px] 
         leading-5 
-        font-semibold 
+        font-sans
+        text-[#555];
+    }
+
+    .paragraph2
+    {
+        @apply 
+        text-[20px] 
+        leading-5 
+        font-sans
         text-[#555];
     }
 
@@ -153,6 +163,7 @@
         @apply 
         h-[2px]
         mt-2 
+        w-2
         bg-[#b0a6a6];
     }
 
@@ -169,9 +180,10 @@
         flex 
         items-center 
         justify-between
-        h-16
+        h-20
+        w-80
         my-4
-        bg-[#726e6e]
+        bg-[#7f7f7f]
         shadow-lg;
     }
 
@@ -213,7 +225,7 @@
         outline-none
         text-sm
         placeholder:text-base
-        placeholder:font-bold
+        /* placeholder:font-bold */
         placeholder:text-[#333];
     }
 
@@ -246,7 +258,7 @@
         font-serif
         text-2xl
         font-semibold
-        text-[#323131];
+        text-[#484848];
     }
 
     .section-paragraph
